@@ -249,7 +249,6 @@ a {
 .popular {
     padding: 65px 0;
     margin-top: 135px;
-    margin-bottom: ;
 }
 .popular .popular-top {
     display: flex;
@@ -600,4 +599,76 @@ a {
 .blog .dot.active {
     background: var(--primary);
     cursor: default;
+}
+/* Footer */
+.footer {
+    padding: 96px 135px 0;
+    background: #2e2100;
+}
+.footer .row {
+    padding-bottom: 38px;
+    display: flex;
+    border-bottom: 1px solid #59554b;
+}
+.footer .row .column {
+    width: 22.5%;
+    position: relative;
+}
+.footer .row .column:nth-child(1) {
+    width: 35%;
+}
+.footer .row .column:last-child {
+    width: 20%;
+}
+.footer .row .desc {
+    width: 267px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.857; /* 185.714% */
+    margin-top: 18px;
+}
+.footer .socials {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+}
+.footer .row .title {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+    padding: 0 48px 14px 0;
+    border-bottom: 1px solid #59554b;
+}
+.footer .row .list {
+    margin-top: 28px;
+}
+.footer .row a {
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.857; /* 185.714% */
+}
+.footer .row strong {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.857; /* 185.714% */
+}
+.footer .row li {
+    margin-bottom: 12px;
+}
+.footer .row li:last-child a {
+    margin-bottom: 0;
+}
+.footer .copyright .desc {
+    margin-top: 28px;
+    color: #807d74;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.857; /* 185.714% */
+    padding-bottom: 28px;
 }
